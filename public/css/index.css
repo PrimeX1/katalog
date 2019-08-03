@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+ 
+    
+}
+.c1{
+    width: 1360px;
+    margin: 100px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.c1 .box{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    background:#ff0;
+    margin: 10px;
+    box-sizing: border-box;
+    display:inline-block;
+}
+.c1 .box .imgBox{
+    position: relative;
+    overflow: hidden;
+}
+.c1 .box .imgBox img{
+    max-width: 100%;
+    transition: transform 2s;
+}
+.c1 .box:hover .imgBox img{
+    transform:scale(1.2);
+}
+.c1 .box .details{
+    position: absolute;
+    top:5px;
+    left:5px;
+    bottom:5px;
+    right:5px;
+    background:rgba(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+.c1 .box:hover .details{
+    transform: scaleY(1); 
+}
+.c1 .box .details .FrontD{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color:#fff;
+}
+.c1 .box .details .FrontD h2{
+    margin:0;
+    padding:0;
+    font-size:11px;
+    color:#ff0;
+}
+.c1 .box .details .FrontD p{
+    margin:10px 0 0;
+    padding:0;
+    font-size:11px;
+}
+.baris{
+    margin-top:10px;
+    float:right;
+
+}
+.img-index{
+    height: 150px;
+    width: 200px;;
+}

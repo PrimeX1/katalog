@@ -1,0 +1,127 @@
+/* frontend */
+body{
+    background-color: white;
+}
+.navbar{
+    margin:0px;
+    border: none;
+}
+.logo-img{
+    width:40px;
+    height:35px;
+}
+
+.menu1{
+    background-color: transparent;
+    position: absolute;
+    right: 16px;
+    font-size: 18px
+}
+.carousel{
+    background-color: #222222;
+    padding: 20px;
+    padding-top: 100px;
+    
+}
+
+.satu{
+    margin-top: 50px;
+}
+.dua{
+    background-color:#222222;
+}
+.top1{
+    position:relative;
+    left:0px;
+    top:0px;
+    z-index:-1;
+    /* filter: brightness(30%); */
+}
+.text-wrapper{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white !important;
+}
+
+.blogtitle{
+    margin-top:90px;
+    text-align: center;
+}
+.barang{
+    padding: 30px;
+    padding-left:180px;
+    margin-top:90px;
+}
+
+.cardcr{
+    width:250px;
+}
+
+.owl-carousel{
+    margin: 10px;
+    border: 5px;
+}
+.site-footer{
+    background-color: #222222;
+    color: white;
+    padding: 10px;
+}
+.about,.buka{
+    color: white;
+}
+.about{
+    text-align: justify;
+}
+.main_title,.furniture_item{
+    text-align: center;
+}
+.furniture1{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.impres{
+    position:relative;
+   width:100%;
+}
+.tulis{
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: white !important;
+}
+.main_btn2{
+    background-color: transparent;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    font-size: 14px;
+    padding: 10px;
+    top: 10%;
+}
+/* contact */
+.top2{
+    position:relative;
+    left:0px;
+    top:0px;
+    z-index:-1;
+    /* filter: brightness(30%); */
+}
+.text-wrapper2{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #dee0e2;
+}
+.contactform{
+    margin:30px;
+}
+.home{
+    margin-top: 13px;
+}
+/* contact */
+.logA{
+    width: 350px !important;
+}
